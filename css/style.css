@@ -53,3 +53,8 @@ body{
     #sub-menu-grupos ul ul li a {
     display: block;
     }
+
+     /* ----------------------- Video Home ----------------------------------*/
+    .video_intro{
+        object-fit: cover;
+    }
