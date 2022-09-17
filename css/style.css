@@ -2,13 +2,25 @@ body{
     all: initial;
 
 }
+header {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50%;
+}
+.menu {
+    z-index: 9999999;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 #menu_horizontal ul {
     list-style-type: none;
     padding: 0%;
+
 }
-#menu_horizontal ul {
+/* #menu_horizontal ul {
     background-color: rgb(153, 15, 15);
-}
+} */
 #menu_horizontal ul li {
     display: inline;
     position: relative;
@@ -29,32 +41,49 @@ body{
     left: 0;
     position: absolute
     }
-    #menu_horizontal ul li:hover ul {
+#menu_horizontal ul li:hover ul {
     display: block;
     }
-    #menu_horizontal ul ul {
+#menu_horizontal ul ul {
     width: 200px;
     }
-    #menu_horizontal ul ul li a {
+#menu_horizontal ul ul li a {
     display: block;
     }
-    /* -----------------------SUBMENU GRUPOS----------------------------------*/
-    #sub-menu-grupos ul ul {
+    /* ----Submenu ----*/
+#sub-menu-grupos ul ul {
     display: none;
     left: 0;
     position: absolute
     }
-    #msub-menu-grupos ul li:hover ul {
+#msub-menu-grupos ul li:hover ul {
     display: block;
     }
-    #sub-menu-grupos ul ul {
+#sub-menu-grupos ul ul {
     width: 200px;
     }
-    #sub-menu-grupos ul ul li a {
+#sub-menu-grupos ul ul li a {
     display: block;
-    }
+}
 
-     /* ----------------------- Video Home ----------------------------------*/
-    .video_intro{
-        object-fit: cover;
-    }
+/* ----Video Home ----*/
+.video_intro{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/* ---- Content ---- */
+.content {
+    width: 100%;
+    height: 100%;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    z-index: 2;
+    position: relative;
+}
+.img-qatar img {
+    width: 20%;
+    z-index: 2;
+    position: relative;
+}
