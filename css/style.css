@@ -1,1 +1,55 @@
-/* estilos aqui 
+body{
+    all: initial;
+
+}
+#menu_horizontal ul {
+    list-style-type: none;
+    padding: 0%;
+}
+#menu_horizontal ul {
+    background-color: rgb(153, 15, 15);
+}
+#menu_horizontal ul li {
+    display: inline;
+    position: relative;
+}
+#menu_horizontal ul li a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .6s;
+}
+#menu_horizontal li a:hover {
+    background-color: rgb(206, 78, 134);
+}
+
+#menu_horizontal ul ul {
+    display: none;
+    left: 0;
+    position: absolute
+    }
+    #menu_horizontal ul li:hover ul {
+    display: block;
+    }
+    #menu_horizontal ul ul {
+    width: 200px;
+    }
+    #menu_horizontal ul ul li a {
+    display: block;
+    }
+    /* -----------------------SUBMENU GRUPOS----------------------------------*/
+    #sub-menu-grupos ul ul {
+    display: none;
+    left: 0;
+    position: absolute
+    }
+    #msub-menu-grupos ul li:hover ul {
+    display: block;
+    }
+    #sub-menu-grupos ul ul {
+    width: 200px;
+    }
+    #sub-menu-grupos ul ul li a {
+    display: block;
+    }
