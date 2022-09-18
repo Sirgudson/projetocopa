@@ -50,7 +50,7 @@ header {
 #menu_horizontal ul ul li a {
     display: block;
     }
-    /* ----Submenu ----*/
+/* ----Submenu ----*/
 #sub-menu-grupos ul ul {
     display: none;
     left: 0;
@@ -86,4 +86,50 @@ header {
     width: 20%;
     z-index: 2;
     position: relative;
+}
+
+/* ---- Page Brasil ---- */
+.box-main-brasil {
+    width: 100%;
+    height: 100%;
+    padding-top: 160px;
+}  
+.box-main-brasil .container-main {
+    background-color: #fff;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.box-main-brasil .container-main p {
+    width: 70%;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 45px;
+} 
+.box-main-brasil .container-main b {
+    color: #256eeb;
+}
+.img-brasil {
+    width: 14%;
+}
+.box-main-brasil2 {
+    width: 100%;
+    height: 100%;
+}  
+.box-main-brasil2 .container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+}
+.box-main-brasil2 .container-main h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.img-destaque {
+    width: 70%;
+    padding-top: 50px;
 }
