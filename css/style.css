@@ -108,10 +108,13 @@ header {
     text-align: center;
     padding-top: 50px;
     line-height: 45px;
-} 
-.box-main-selecao .container-main b {
+}
+.brasil-b {
     color: #256eeb;
 }
+/* .box-main-selecao .container-main b {
+    color: #256eeb;
+} */
 .img-simbolo {
     width: 14%;
 }
@@ -168,6 +171,9 @@ table, td, th {
     color: #fff;
     text-align: center;
     font-size: 50px;
+}
+.camarao-b {
+    color: #c23a2e;
 }
 .img-destaque {
     width: 80%;
