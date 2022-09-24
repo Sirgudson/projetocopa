@@ -88,6 +88,20 @@ header {
     z-index: 2;
     position: relative;
 }
+.img-qatar, .content p{
+    display: flex;
+    justify-content: center;
+}
+
+.title, .texto-qatar{
+    width: 60%;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 45px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
 /* ---- Page Seleçoes ---- */
 .box-main-selecao {
