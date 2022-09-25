@@ -117,6 +117,10 @@ header {
 /* ---- Page Estadios ---- */
 .box-estadios {
     padding: 60px;
+    color: #fff;
+}
+.box-estadios h2 {
+    padding-bottom: 30px;
 }
 .mosaico {
     display: grid;
