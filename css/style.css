@@ -151,7 +151,6 @@ header {
 table, td, th {
     border: yellowgreen;
     padding: 20px;
-
 }
 
 /* ---- Page Camaroes ---- */
@@ -184,6 +183,43 @@ table, td, th {
     color: #fff;
     background-color: #c23a2e;
     border: 3px solid #ffff00;
+    padding: 10px;
+    margin-top: 220px;
+}
+table, td, th {
+    padding: 20px;
+}
+
+/* ---- Page Marrocos ---- */
+.box-main-camaroes {
+    width: 100%;
+    height: 100%;
+}  
+.box-main-marrocos .container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4%;
+}
+.box-main-marrocos h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.marrocos-b {
+    color: #cd3232;
+}
+.img-destaque {
+    width: 80%;
+    padding-top: 30px;
+}
+.box-main-marrocos .container-main table {
+    width: 30%;
+    color: #fff;
+    background-color: #30a87f;
+    border: 3px solid #fff;
     padding: 10px;
     margin-top: 220px;
 }
