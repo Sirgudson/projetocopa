@@ -199,21 +199,15 @@ header {
     padding-top: 50px;
     line-height: 45px;
 }
-.brasil-b {
-    color: #256eeb;
-}
-/* .box-main-selecao .container-main b {
-    color: #256eeb;
-} */
 .img-simbolo {
     width: 14%;
 }
-/* ---- Page Brasil ---- */
-.box-main-brasil {
+.destaque {
     width: 100%;
     height: 100%;
-    padding: 25px;
+    padding: 30px;
 }  
+/* ---- Page Brasil ---- */
 .box-main-brasil .container-main {
     display: flex;
     flex-direction: row-reverse;
@@ -226,6 +220,9 @@ header {
     color: #fff;
     text-align: center;
     font-size: 50px;
+}
+.brasil-b {
+    color: #256eeb;
 }
 .img-destaque {
     width: 80%;
@@ -245,11 +242,6 @@ table, td, th {
 }
 
 /* ---- Page Camaroes ---- */
-.box-main-camaroes {
-    width: 100%;
-    height: 100%;
-    padding: 25px;
-}  
 .box-main-camaroes .container-main {
     display: flex;
     flex-direction: row-reverse;
@@ -283,11 +275,6 @@ table, td, th {
 }
 
 /* ---- Page Marrocos ---- */
-.box-main-camaroes {
-    width: 100%;
-    height: 100%;
-    padding: 25px;
-}  
 .box-main-marrocos .container-main {
     display: flex;
     flex-direction: row-reverse;
@@ -318,7 +305,6 @@ table, td, th {
 }
 table, td, th {
     padding: 20px;
-
 }
 
 /* ---- Page Partidas ---- */
