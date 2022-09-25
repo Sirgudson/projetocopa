@@ -78,22 +78,28 @@ header {
 .content {
     width: 100%;
     height: 100%;
-    padding-top: 160px;
     padding-bottom: 160px;
     z-index: 2;
     position: relative;
 }
-.img-qatar img {
+.img-qatar img, .qatar-flag img {
     width: 20%;
     z-index: 2;
     position: relative;
 }
-.img-qatar, .content p{
+.img-qatar, .qatar-flag, .content p{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-.title, .texto-qatar{
+.curiosidade img{
+    width: 30%;
+    display: block;
+    padding-left: 35%;
+}
+
+.texto-qatar{
     width: 60%;
     font-size: 35px;
     text-align: center;
