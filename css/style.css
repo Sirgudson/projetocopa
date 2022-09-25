@@ -312,6 +312,10 @@ table, td, th {
     width: 45px;
 }
 
+.tabela{
+    width: 90%;
+}
+
 /* ---- FOOTER ---- */
 
 .fim {
