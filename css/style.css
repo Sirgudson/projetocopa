@@ -18,6 +18,7 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
+    text-shadow: 0 0 2px #000;
 }
 #menu_horizontal ul {
     list-style-type: none;
