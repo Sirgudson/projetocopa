@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,20 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Partidas</title>
 </head>
+<style>
+    header {
+        background: url(assets/fundo-partidas.webp) no-repeat;
+    }
+
+    #menu_horizontal li a:hover {
+        background-color: rgba(221, 39, 151, 0.772);
+    }
+</style>
+
 <body>
     <!-- HEADER-->
-   <!-- <header>
-        <nav class="menu" id="menu_horizontal2">
+    <header class="header-partidas">
+        <nav class="menu" id="menu_horizontal">
             <ul>
                 <li>
                     <a href="index.html">HOMEPAGE</a>
@@ -36,516 +47,563 @@
                 </li>
             </ul>
         </nav>
-    </header>-->
-    <h1>Grupos e Jogos</h1>
-    <table border="1">
-        <tr>
-            <td><img class="tabela" src="grupoA/participantesA.png" alt="Grupo A"></td>
-            <td><img class="tabela" src="grupoB/participantesB.png" alt="Grupo B"></td>
-            <td><img class="tabela" src="grupoC/participantesC.png" alt="Grupo C"></td>
-            <td><img class="tabela" src="grupoD/participantesD.png" alt="Grupo D"></td>
-            <td><img class="tabela" src="grupoE/participantesE.png" alt="Grupo E"></td>
-            <td><img class="tabela" src="grupoF/participantesF.png" alt="Grupo F"></td>
-            <td><img class="tabela" src="grupoG/participantesG.png" alt="Grupo G"></td>
-            <td><img class="tabela" src="grupoH/participantesH.png" alt="Grupo H"></td>
-        </tr>
-        <tr>
-            <td>Grupo A</td>
-            <td>Grupo B</td>
-            <td>Grupo C</td>
-            <td>Grupo D</td>
-            <td>Grupo E</td>
-            <td>Grupo F</td>
-            <td>Grupo G</td>
-            <td>Grupo H</td>
-        </tr>
-    </table>
-    <h2> Grupo A</h2>
-    <h3>1ª rodada | Domingo (20/11)</h3>
-    <table>
-        <tr>
-            <td>Senegal</td>
-            <td><img class="logo-paises" src="grupoA/senegal.png" alt="Logo Senegal"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoA/holanda.png" alt="Logo Holanda"></td>
-            <td>Holanda</td>
-            <td>13h, Al Thumama</td>
-        </tr>
-        <tr>
-            <td>Catar</td>
-            <td><img class="logo-paises" src="grupoA/catar.png" alt="Logo Catar"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoA/equador.png" alt="Logo Equador"></td>
-            <td>Equador</td>
-            <td>13h, Al Bayt</td>
-        </tr>
-    </table>
+    </header>
+    <section class="jogos-2022">
+        <div class="firts-table">
+            <h1 class="h1-jogos">Grupos e Jogos</h1>
+            <table>
+                <tr>
+                    <td><img class="tabela" src="grupoA/participantesA.png" alt="Grupo A"></td>
+                    <td><img class="tabela" src="grupoB/participantesB.png" alt="Grupo B"></td>
+                    <td><img class="tabela" src="grupoC/participantesC.png" alt="Grupo C"></td>
+                    <td><img class="tabela" src="grupoD/participantesD.png" alt="Grupo D"></td>
+                </tr>
+                <tr>
+                    <td><a href="#abrirModal">Grupo A</a></td>
+                    <td><a href="#abrirModal-b">Grupo B</a></td>
+                    <td><a href="#abrirModal-c">Grupo C</a></td>
+                    <td><a href="#abrirModal-d">Grupo D</a></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><img class="tabela" src="grupoE/participantesE.png" alt="Grupo E"></td>
+                    <td><img class="tabela" src="grupoF/participantesF.png" alt="Grupo F"></td>
+                    <td><img class="tabela" src="grupoG/participantesG.png" alt="Grupo G"></td>
+                    <td><img class="tabela" src="grupoH/participantesH.png" alt="Grupo H"></td>
+                </tr>
+                <tr>
+                    <td><a href="#abrirModal-e">Grupo E</a></td>
+                    <td><a href="#abrirModal-f">Grupo F</a></td>
+                    <td><a href="#abrirModal-g">Grupo G</a></td>
+                    <td><a href="#abrirModal-h">Grupo H</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="abrirModal" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2> Grupo A</h2>
+            <h3>1ª rodada | Domingo (20/11)</h3>
+            <table>
+                <tr>
+                    <td>Senegal</td>
+                    <td><img class="logo-paises" src="grupoA/senegal.png" alt="Logo Senegal"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoA/holanda.png" alt="Logo Holanda"></td>
+                    <td>Holanda</td>
+                    <td>13h, Al Thumama</td>
+                </tr>
+                <tr>
+                    <td>Catar</td>
+                    <td><img class="logo-paises" src="grupoA/catar.png" alt="Logo Catar"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoA/equador.png" alt="Logo Equador"></td>
+                    <td>Equador</td>
+                    <td>13h, Al Bayt</td>
+                </tr>
+            </table>
 
-    <h3>2ª rodada | Sexta-feira (25/11)</h3>
-    <table>
-        <tr>
-            <td>Senegal</td>
-            <td><img class="logo-paises" src="grupoA/senegal.png" alt="Logo Senegal"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoA/catar.png" alt="Logo Catar"></td>
-            <td>Catar</td>
-            <td>10h, Al Thumama</td>
-        </tr>
-        <tr>
-            <td>Holanda</td>
-            <td><img class="logo-paises" src="grupoA/holanda.png" alt="Logo Holanda"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoA/equador.png" alt="Logo Equador"></td>
-            <td>Equador</td>
-            <td>13h, Al Khalifa</td>
-        </tr>
-    </table>
+            <h3>2ª rodada | Sexta-feira (25/11)</h3>
+            <table>
+                <tr>
+                    <td>Senegal</td>
+                    <td><img class="logo-paises" src="grupoA/senegal.png" alt="Logo Senegal"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoA/catar.png" alt="Logo Catar"></td>
+                    <td>Catar</td>
+                    <td>10h, Al Thumama</td>
+                </tr>
+                <tr>
+                    <td>Holanda</td>
+                    <td><img class="logo-paises" src="grupoA/holanda.png" alt="Logo Holanda"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoA/equador.png" alt="Logo Equador"></td>
+                    <td>Equador</td>
+                    <td>13h, Al Khalifa</td>
+                </tr>
+            </table>
 
-    <h3>3ª rodada | Terça-feira (29/11)</h3>
-    <table>
-            <td>Catar</td>
-            <td><img class="logo-paises" src="grupoA/catar.png" alt="Logo Catar"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoA/holanda.png" alt="Logo Holanda"></td>
-            <td>Holanda</td>
-            <td>10h, Al Thumama</td>
-        </tr>
-        <tr>
-            <td>Senegal</td>
-            <td><img class="logo-paises" src="grupoA/senegal.png" alt="Logo Senegal"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoA/equador.png" alt="Logo Equador"></td>
-            <td>Equador</td>
-            <td>13h, Al Khalifa</td>
-        </tr>
-    </table>
+            <h3>3ª rodada | Terça-feira (29/11)</h3>
+            <table>
+                <td>Catar</td>
+                <td><img class="logo-paises" src="grupoA/catar.png" alt="Logo Catar"></td>
+                <td>x</td>
+                <td><img class="logo-paises" src="grupoA/holanda.png" alt="Logo Holanda"></td>
+                <td>Holanda</td>
+                <td>10h, Al Thumama</td>
+                </tr>
+                <tr>
+                    <td>Senegal</td>
+                    <td><img class="logo-paises" src="grupoA/senegal.png" alt="Logo Senegal"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoA/equador.png" alt="Logo Equador"></td>
+                    <td>Equador</td>
+                    <td>13h, Al Khalifa</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <div id="abrirModal-b" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2>Grupo B</h2>
+            <h3>1ª rodada | Segunda-feira (21/11)</h3>
+            <table>
+                <tr>
+                    <td>Inglaterra</td>
+                    <td><img class="logo-paises" src="grupoB/inglaterra.png" alt="Logo Inglaterra"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoB/ira.png" alt="Logo Irã"></td>
+                    <td>Irã</td>
+                    <td>10h, Al Khalifa</td>
+                </tr>
+                <tr>
+                    <td>Estados Unidos</td>
+                    <td><img class="logo-paises" src="grupoB/eua.png" alt="Logo Estados Unidos"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoB/gales.png" alt="Logo Irã"></td>
+                    <td>País de Gales</td>
+                    <td>16h, Al Rayyan</td>
+                </tr>
+            </table>
 
-    <h2>Grupo B</h2>
-    <h3>1ª rodada | Segunda-feira (21/11)</h3>
-    <table>
-        <tr>
-            <td>Inglaterra</td>
-            <td><img class="logo-paises" src="grupoB/inglaterra.png" alt="Logo Inglaterra"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoB/ira.png" alt="Logo Irã"></td>
-            <td>Irã</td>
-            <td>10h, Al Khalifa</td>  
-        </tr>
-        <tr>
-            <td>Estados Unidos</td>
-            <td><img class="logo-paises" src="grupoB/eua.png" alt="Logo Estados Unidos"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoB/gales.png" alt="Logo Irã"></td>
-            <td>País de Gales</td>
-            <td>16h, Al Rayyan</td>  
-        </tr>
-    </table>
+            <h3>2ª rodada | Sexta-feira (25/11)</h3>
+            <table>
+                <tr>
+                    <td>País de Gales</td>
+                    <td><img class="logo-paises" src="grupoB/gales.png" alt="Logo País de Gales"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoB/ira.png" alt="Logo Irã"></td>
+                    <td>Irã</td>
+                    <td>07h, Al Rayyan</td>
+                </tr>
+                <tr>
+                    <td>Inglaterra</td>
+                    <td><img class="logo-paises" src="grupoB/inglaterra.png" alt="Logo Inglaterra"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoB/eua.png" alt="Logo Irã"></td>
+                    <td>Estados Unidos</td>
+                    <td>16h, Al Bayt</td>
+                </tr>
+            </table>
 
-    <h3>2ª rodada | Sexta-feira (25/11)</h3>
-    <table>
-        <tr>
-            <td>País de Gales</td>
-            <td><img class="logo-paises" src="grupoB/gales.png" alt="Logo País de Gales"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoB/ira.png" alt="Logo Irã"></td>
-            <td>Irã</td>
-            <td>07h, Al Rayyan</td>  
-        </tr>
-        <tr>
-            <td>Inglaterra</td>
-            <td><img class="logo-paises" src="grupoB/inglaterra.png" alt="Logo Inglaterra"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoB/eua.png" alt="Logo Irã"></td>
-            <td>Estados Unidos</td>
-            <td>16h, Al Bayt</td>  
-        </tr>
-    </table>
+            <h3>3ª rodada | Terça-feira (29/11)</h3>
+            <table>
+                <tr>
+                    <td>Irã</td>
+                    <td><img class="logo-paises" src="grupoB/ira.png" alt="Logo Irã"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoB/eua.png" alt="Logo Estados Unidos"></td>
+                    <td>Estados Unidos</td>
+                    <td>16h, Al Thumama</td>
+                </tr>
+                <tr>
+                    <td>País de Gales</td>
+                    <td><img class="logo-paises" src="grupoB/gales.png" alt="Logo País de Gales"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoB/inglaterra.png" alt="Logo Inglaterra"></td>
+                    <td>Inglaterra</td>
+                    <td>16h, Al Rayyan</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div id="abrirModal-c" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2>Grupo C</h2>
+            <h3>1ª rodada | Terça-feira (22/11)</h3>
+            <table>
+                <tr>
+                    <td>Argentina</td>
+                    <td><img class="logo-paises" src="grupoC/argentina.png" alt="Logo Argentina"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoC/arabia.png" alt="Logo Arábia Saudita"></td>
+                    <td>Arábia Saudita</td>
+                    <td>07h, Nacional de Lusail</td>
+                </tr>
+                <tr>
+                    <td>México</td>
+                    <td><img class="logo-paises" src="grupoC/mexico.png" alt="Logo México"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoC/polonia.png" alt="Logo Polônia"></td>
+                    <td>Polônia</td>
+                    <td>13h, Porto de Doha</td>
+                </tr>
+            </table>
 
-    <h3>3ª rodada | Terça-feira (29/11)</h3>
-    <table>
-        <tr>
-            <td>Irã</td>
-            <td><img class="logo-paises" src="grupoB/ira.png" alt="Logo Irã"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoB/eua.png" alt="Logo Estados Unidos"></td>
-            <td>Estados Unidos</td>
-            <td>16h, Al Thumama</td>  
-        </tr>
-        <tr>
-            <td>País de Gales</td>
-            <td><img class="logo-paises" src="grupoB/gales.png" alt="Logo País de Gales"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoB/inglaterra.png" alt="Logo Inglaterra"></td>
-            <td>Inglaterra</td>
-            <td>16h, Al Rayyan</td>  
-        </tr>
-    </table>
+            <h3>2ª rodada | Sábado (26/11)</h3>
+            <table>
+                <tr>
+                    <td>Polônia</td>
+                    <td><img class="logo-paises" src="grupoC/polonia.png" alt="Logo Polônia"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoC/arabia.png" alt="Logo Arábia Saudita"></td>
+                    <td>Arábia Saudita</td>
+                    <td>10h, Cidade da Educação</td>
+                </tr>
+                <tr>
+                    <td>Argentina</td>
+                    <td><img class="logo-paises" src="grupoC/argentina.png" alt="Logo Argentina"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoC/mexico.png" alt="Logo México"></td>
+                    <td>México</td>
+                    <td>16h, Nacional de Lusail</td>
+                </tr>
+            </table>
 
-    <h2>Grupo C</h2>
-    <h3>1ª rodada | Terça-feira (22/11)</h3>
-    <table>
-        <tr>
-            <td>Argentina</td>
-            <td><img class="logo-paises" src="grupoC/argentina.png" alt="Logo Argentina"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoC/arabia.png" alt="Logo Arábia Saudita"></td>
-            <td>Arábia Saudita</td>
-            <td>07h, Nacional de Lusail</td>  
-        </tr>
-        <tr>
-            <td>México</td>
-            <td><img class="logo-paises" src="grupoC/mexico.png" alt="Logo México"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoC/polonia.png" alt="Logo Polônia"></td>
-            <td>Polônia</td>
-            <td>13h, Porto de Doha</td>  
-        </tr>
-    </table>
+            <h3>3ª rodada | Quarta-feira (30/11)</h3>
+            <table>
+                <tr>
+                    <td>Polônia</td>
+                    <td><img class="logo-paises" src="grupoC/polonia.png" alt="Logo Polônia"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoC/argentina.png" alt="Logo Argentina"></td>
+                    <td>Argentina</td>
+                    <td>16h, Porto de Doha</td>
+                </tr>
+                <tr>
+                    <td>Arábia Saudita</td>
+                    <td><img class="logo-paises" src="grupoC/arabia.png" alt="Logo Arábia Saudita"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoC/mexico.png" alt="Logo México"></td>
+                    <td>México</td>
+                    <td>16h, Nacional de Lusail</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div id="abrirModal-d" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2>Grupo D</h2>
+            <h3>1ª rodada | Terça-feira (22/11)</h3>
+            <table>
+                <tr>
+                    <td>Dinamarca</td>
+                    <td><img class="logo-paises" src="grupoD/dinamarca.png" alt="Logo Dinamarca"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoD/tunisia.png" alt="Logo Tunísia"></td>
+                    <td>Tunísia</td>
+                    <td>10h, Cidade da Educação</td>
+                </tr>
+                <tr>
+                    <td>França</td>
+                    <td><img class="logo-paises" src="grupoD/franca.png" alt="Logo França"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoD/australia.png" alt="Logo Austrália"></td>
+                    <td>Austrália</td>
+                    <td>16h, Al Janoub</td>
+                </tr>
+            </table>
 
-    <h3>2ª rodada | Sábado (26/11)</h3>
-    <table>
-        <tr>
-            <td>Polônia</td>
-            <td><img class="logo-paises" src="grupoC/polonia.png" alt="Logo Polônia"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoC/arabia.png" alt="Logo Arábia Saudita"></td>
-            <td>Arábia Saudita</td>
-            <td>10h, Cidade da Educação</td>  
-        </tr>
-        <tr>
-            <td>Argentina</td>
-            <td><img class="logo-paises" src="grupoC/argentina.png" alt="Logo Argentina"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoC/mexico.png" alt="Logo México"></td>
-            <td>México</td>
-            <td>16h, Nacional de Lusail</td>  
-        </tr>
-    </table>
+            <h3>2ª rodada | Sábado (26/11)</h3>
+            <table>
+                <tr>
+                    <td>Tunísia</td>
+                    <td><img class="logo-paises" src="grupoD/tunisia.png" alt="Logo Tunísia"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoD/australia.png" alt="Logo Austrália"></td>
+                    <td>Austrália</td>
+                    <td>07h, Al Janoub</td>
+                </tr>
+                <tr>
+                    <td>França</td>
+                    <td><img class="logo-paises" src="grupoD/franca.png" alt="Logo França"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoD/dinamarca.png" alt="Logo Dinamarca"></td>
+                    <td>Dinamarca</td>
+                    <td>13h, Porto de Doha</td>
+                </tr>
+            </table>
 
-    <h3>3ª rodada | Quarta-feira (30/11)</h3>
-    <table>
-        <tr>
-            <td>Polônia</td>
-            <td><img class="logo-paises" src="grupoC/polonia.png" alt="Logo Polônia"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoC/argentina.png" alt="Logo Argentina"></td>
-            <td>Argentina</td>
-            <td>16h, Porto de Doha</td>  
-        </tr>
-        <tr>
-            <td>Arábia Saudita</td>
-            <td><img class="logo-paises" src="grupoC/arabia.png" alt="Logo Arábia Saudita"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoC/mexico.png" alt="Logo México"></td>
-            <td>México</td>
-            <td>16h, Nacional de Lusail</td>  
-        </tr>
-    </table>
-    
-    <h2>Grupo D</h2>
-    <h3>1ª rodada | Terça-feira (22/11)</h3>
-    <table>
-        <tr>
-            <td>Dinamarca</td>
-            <td><img class="logo-paises" src="grupoD/dinamarca.png" alt="Logo Dinamarca"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoD/tunisia.png" alt="Logo Tunísia"></td>
-            <td>Tunísia</td>
-            <td>10h, Cidade da Educação</td>  
-        </tr>
-        <tr>
-            <td>França</td>
-            <td><img class="logo-paises" src="grupoD/franca.png" alt="Logo França"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoD/australia.png" alt="Logo Austrália"></td>
-            <td>Austrália</td>
-            <td>16h, Al Janoub</td>  
-        </tr>
-    </table>
+            <h3>3ª rodada | Quarta-feira (30/11)</h3>
+            <table>
+                <tr>
+                    <td>Tunísia</td>
+                    <td><img class="logo-paises" src="grupoD/tunisia.png" alt="Logo Tunísia"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoD/franca.png" alt="Logo França"></td>
+                    <td>França</td>
+                    <td>12h, Cidade da Educação</td>
+                </tr>
+                <tr>
+                    <td>Austrália</td>
+                    <td><img class="logo-paises" src="grupoD/australia.png" alt="Logo Austrália"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoD/dinamarca.png" alt="Logo Dinamarca"></td>
+                    <td>Dinamarca</td>
+                    <td>12h, Al Janoub</td>
+                </tr>
+            </table>
+            </div>
+        </div>
 
-    <h3>2ª rodada | Sábado (26/11)</h3>
-    <table>
-        <tr>
-            <td>Tunísia</td>
-            <td><img class="logo-paises" src="grupoD/tunisia.png" alt="Logo Tunísia"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoD/australia.png" alt="Logo Austrália"></td>
-            <td>Austrália</td>
-            <td>07h, Al Janoub</td>  
-        </tr>
-        <tr>
-            <td>França</td>
-            <td><img class="logo-paises" src="grupoD/franca.png" alt="Logo França"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoD/dinamarca.png" alt="Logo Dinamarca"></td>
-            <td>Dinamarca</td>
-            <td>13h, Porto de Doha</td>  
-        </tr>
-    </table>
+        <div id="abrirModal-e" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2>Grupo E</h2>
+            <h3>1ª rodada | Quarta-feira (23/11)</h3>
+            <table>
+                <tr>
+                    <td>Alemanha</td>
+                    <td><img class="logo-paises" src="grupoE/alemanha.png" alt="Logo Alemanha"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoE/japao.png" alt="Logo Japão"></td>
+                    <td>Japão</td>
+                    <td>10h, Al Khalifa</td>
+                </tr>
+                <tr>
+                    <td>Espanha</td>
+                    <td><img class="logo-paises" src="grupoE/espanha.png" alt="Logo Espanha"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoE/costarica.png" alt="Logo Costa Rica"></td>
+                    <td>Costa Rica</td>
+                    <td>13h, Al Thumama</td>
+                </tr>
+            </table>
 
-    <h3>3ª rodada | Quarta-feira (30/11)</h3>
-    <table>
-        <tr>
-            <td>Tunísia</td>
-            <td><img class="logo-paises" src="grupoD/tunisia.png" alt="Logo Tunísia"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoD/franca.png" alt="Logo França"></td>
-            <td>França</td>
-            <td>12h, Cidade da Educação</td>  
-        </tr>
-        <tr>
-            <td>Austrália</td>
-            <td><img class="logo-paises" src="grupoD/australia.png" alt="Logo Austrália"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoD/dinamarca.png" alt="Logo Dinamarca"></td>
-            <td>Dinamarca</td>
-            <td>12h, Al Janoub</td>  
-        </tr>
-    </table>
+            <h3>2ª rodada | Domingo (27/11)</h3>
+            <table>
+                <tr>
+                    <td>Japão</td>
+                    <td><img class="logo-paises" src="grupoE/japao.png" alt="Logo Japão"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoE/costarica.png" alt="Logo Costa Rica"></td>
+                    <td>Costa Rica</td>
+                    <td>07h, Al Rayyan</td>
+                </tr>
+                <tr>
+                    <td>Espanha</td>
+                    <td><img class="logo-paises" src="grupoE/espanha.png" alt="Logo Espanha"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoE/alemanha.png" alt="Logo Alemanha"></td>
+                    <td>Alemanha</td>
+                    <td>16h, Al Bayt</td>
+                </tr>
+            </table>
 
+            <h3>3ª rodada | Quinta-feira (01/12)</h3>
+            <table>
+                <tr>
+                    <td>Japão</td>
+                    <td><img class="logo-paises" src="grupoE/japao.png" alt="Logo Japão"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoE/espanha.png" alt="Logo Espanha"></td>
+                    <td>Espanha</td>
+                    <td>16h, Al Khalifa</td>
+                </tr>
+                <tr>
+                    <td>Costa Rica</td>
+                    <td><img class="logo-paises" src="grupoE/costarica.png" alt="Logo Costa Rica"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoE/alemanha.png" alt="Logo Alemanha"></td>
+                    <td>Alemanha</td>
+                    <td>16h, Al Bayt</td>
+                </tr>
+            </table>
+            </div>
+        </div>
 
-    <h2>Grupo E</h2>
-    <h3>1ª rodada | Quarta-feira (23/11)</h3>
-    <table>
-        <tr>
-            <td>Alemanha</td>
-            <td><img class="logo-paises" src="grupoE/alemanha.png" alt="Logo Alemanha"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoE/japao.png" alt="Logo Japão"></td>
-            <td>Japão</td>
-            <td>10h, Al Khalifa</td>  
-        </tr>
-        <tr>
-            <td>Espanha</td>
-            <td><img class="logo-paises" src="grupoE/espanha.png" alt="Logo Espanha"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoE/costarica.png" alt="Logo Costa Rica"></td>
-            <td>Costa Rica</td>
-            <td>13h, Al Thumama</td>  
-        </tr>
-    </table>
+        <div id="abrirModal-f" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2>Grupo F</h2>
+            <h3>1ª rodada | Quarta-feira (23/11)</h3>
+            <table>
+                <tr>
+                    <td>Marrocos</td>
+                    <td><img class="logo-paises" src="grupoF/marrocos.png" alt="Logo Marrocos"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoF/croacia.png" alt="Logo Croácia"></td>
+                    <td>Croácia</td>
+                    <td>07h, Al Bayt</td>
+                </tr>
+                <tr>
+                    <td>Bélgica</td>
+                    <td><img class="logo-paises" src="grupoF/belgica.png" alt="Logo Bélgica"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoF/canada.png" alt="Logo Canadá"></td>
+                    <td>Canadá</td>
+                    <td>16h, Al Rayyan</td>
+                </tr>
+            </table>
 
-    <h3>2ª rodada | Domingo (27/11)</h3>
-    <table>
-        <tr>
-            <td>Japão</td>
-            <td><img class="logo-paises" src="grupoE/japao.png" alt="Logo Japão"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoE/costarica.png" alt="Logo Costa Rica"></td>
-            <td>Costa Rica</td>
-            <td>07h, Al Rayyan</td>  
-        </tr>
-        <tr>
-            <td>Espanha</td>
-            <td><img class="logo-paises" src="grupoE/espanha.png" alt="Logo Espanha"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoE/alemanha.png" alt="Logo Alemanha"></td>
-            <td>Alemanha</td>
-            <td>16h, Al Bayt</td>  
-        </tr>
-    </table>
+            <h3>2ª rodada | Domingo (27/11)</h3>
+            <table>
+                <tr>
+                    <td>Bélgica</td>
+                    <td><img class="logo-paises" src="grupoF/belgica.png" alt="Logo Bélgica"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoF/marrocos.png" alt="Logo Marrocos"></td>
+                    <td>Marrocos</td>
+                    <td>10h, Al Thumama</td>
+                </tr>
+                <tr>
+                    <td>Croácia</td>
+                    <td><img class="logo-paises" src="grupoF/croacia.png" alt="Logo Croácia"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoF/canada.png" alt="Logo Canadá"></td>
+                    <td>Canadá</td>
+                    <td>13h, Al Khalifa</td>
+                </tr>
+            </table>
 
-    <h3>3ª rodada | Quinta-feira (01/12)</h3>
-    <table>
-        <tr>
-            <td>Japão</td>
-            <td><img class="logo-paises" src="grupoE/japao.png" alt="Logo Japão"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoE/espanha.png" alt="Logo Espanha"></td>
-            <td>Espanha</td>
-            <td>16h, Al Khalifa</td>  
-        </tr>
-        <tr>
-            <td>Costa Rica</td>
-            <td><img class="logo-paises" src="grupoE/costarica.png" alt="Logo Costa Rica"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoE/alemanha.png" alt="Logo Alemanha"></td>
-            <td>Alemanha</td>
-            <td>16h, Al Bayt</td>  
-        </tr>
-    </table>
+            <h3>3ª rodada | Quinta-feira (01/12)</h3>
+            <table>
+                <tr>
+                    <td>Croácia</td>
+                    <td><img class="logo-paises" src="grupoF/croacia.png" alt="Logo Croácia"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoF/belgica.png" alt="Logo Bélgica"></td>
+                    <td>Bélgica</td>
+                    <td>12h, Al Rayyan</td>
+                </tr>
+                <tr>
+                    <td>Canadá</td>
+                    <td><img class="logo-paises" src="grupoF/canada.png" alt="Logo Canadá"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoF/marrocos.png" alt="Logo Marrocos"></td>
+                    <td>Marrocos</td>
+                    <td>12h, Al Thumama</td>
+                </tr>
+            </table>
+            </div>
+        </div>
 
-    <h2>Grupo F</h2>
-    <h3>1ª rodada | Quarta-feira (23/11)</h3>
-    <table>
-        <tr>
-            <td>Marrocos</td>
-            <td><img class="logo-paises" src="grupoF/marrocos.png" alt="Logo Marrocos"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoF/croacia.png" alt="Logo Croácia"></td>
-            <td>Croácia</td>
-            <td>07h, Al Bayt</td>  
-        </tr>
-        <tr>
-            <td>Bélgica</td>
-            <td><img class="logo-paises" src="grupoF/belgica.png" alt="Logo Bélgica"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoF/canada.png" alt="Logo Canadá"></td>
-            <td>Canadá</td>
-            <td>16h, Al Rayyan</td>  
-        </tr>
-    </table>
+        <div id="abrirModal-g" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2>Grupo G</h2>
+            <h3>1ª rodada | Quinta-feira (24/11)</h3>
+            <table>
+                <tr>
+                    <td>Suíça</td>
+                    <td><img class="logo-paises" src="grupoG/suica.png" alt="Logo Suiça"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoG/camaroes.png" alt="Logo Camarões"></td>
+                    <td>Camarões</td>
+                    <td>07h, Al Janoub</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td><img class="logo-paises" src="grupoG/brasil.png" alt="Logo Brasil"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoG/servia.png" alt="Logo Sérvia"></td>
+                    <td>Sérvia</td>
+                    <td>16h, Nacional de Lusail</td>
+                </tr>
+            </table>
 
-    <h3>2ª rodada | Domingo (27/11)</h3>
-    <table>
-        <tr>
-            <td>Bélgica</td>
-            <td><img class="logo-paises" src="grupoF/belgica.png" alt="Logo Bélgica"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoF/marrocos.png" alt="Logo Marrocos"></td>
-            <td>Marrocos</td>
-            <td>10h, Al Thumama</td>  
-        </tr>
-        <tr>
-            <td>Croácia</td>
-            <td><img class="logo-paises" src="grupoF/croacia.png" alt="Logo Croácia"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoF/canada.png" alt="Logo Canadá"></td>
-            <td>Canadá</td>
-            <td>13h, Al Khalifa</td>  
-        </tr>
-    </table>
+            <h3>2ª rodada | Segunda-feira (28/11)</h3>
+            <table>
+                <tr>
+                    <td>Camarões</td>
+                    <td><img class="logo-paises" src="grupoG/camaroes.png" alt="Logo Camarões"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoG/servia.png" alt="Logo Sérvia"></td>
+                    <td>Sérvia</td>
+                    <td>07h, Al Janoub</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td><img class="logo-paises" src="grupoG/brasil.png" alt="Logo Brasil"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoG/suica.png" alt="Logo Suíça"></td>
+                    <td>Suíça</td>
+                    <td>13h, Porto de Doha</td>
+                </tr>
+            </table>
 
-    <h3>3ª rodada | Quinta-feira (01/12)</h3>
-    <table>
-        <tr>
-            <td>Croácia</td>
-            <td><img class="logo-paises" src="grupoF/croacia.png" alt="Logo Croácia"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoF/belgica.png" alt="Logo Bélgica"></td>
-            <td>Bélgica</td>
-            <td>12h, Al Rayyan</td>  
-        </tr>
-        <tr>
-            <td>Canadá</td>
-            <td><img class="logo-paises" src="grupoF/canada.png" alt="Logo Canadá"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoF/marrocos.png" alt="Logo Marrocos"></td>
-            <td>Marrocos</td>
-            <td>12h, Al Thumama</td>  
-        </tr>
-    </table>
+            <h3>3ª rodada | Sexta-feira (02/12)</h3>
+            <table>
+                <tr>
+                    <td>Camarões</td>
+                    <td><img class="logo-paises" src="grupoG/camaroes.png" alt="Logo Camarões"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoG/brasil.png" alt="Logo Brasil"></td>
+                    <td>Brasil</td>
+                    <td>16h, Nacional de Lusail</td>
+                </tr>
+                <tr>
+                    <td>Sérvia</td>
+                    <td><img class="logo-paises" src="grupoG/servia.png" alt="Logo Sérvia"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoG/suica.png" alt="Logo Suíça"></td>
+                    <td>Suíça</td>
+                    <td>16h, Porto de Doha</td>
+                </tr>
+            </table>
+            </div>
+        </div>
 
-    <h2>Grupo G</h2>
-    <h3>1ª rodada | Quinta-feira (24/11)</h3>
-    <table>
-        <tr>
-            <td>Suíça</td>
-            <td><img class="logo-paises" src="grupoG/suica.png" alt="Logo Suiça"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoG/camaroes.png" alt="Logo Camarões"></td>
-            <td>Camarões</td>
-            <td>07h, Al Janoub</td>  
-        </tr>
-        <tr>
-            <td>Brasil</td>
-            <td><img class="logo-paises" src="grupoG/brasil.png" alt="Logo Brasil"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoG/servia.png" alt="Logo Sérvia"></td>
-            <td>Sérvia</td>
-            <td>16h, Nacional de Lusail</td>  
-        </tr>
-    </table>
+        <div id="abrirModal-h" class="modal">
+            <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h2>Grupo H</h2>
+            <h3>1ª rodada | Quinta-feira (24/11)</h3>
+            <table>
+                <tr>
+                    <td>Uruguai</td>
+                    <td><img class="logo-paises" src="grupoH/uruguai.png" alt="Logo Uruguai"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoH/coreiadosul.png" alt="Logo Coréia do Sul"></td>
+                    <td>Coréia do Sul</td>
+                    <td>10h, Cidade da Educação</td>
+                </tr>
+                <tr>
+                    <td>Portugal</td>
+                    <td><img class="logo-paises" src="grupoH/portugal.png" alt="Logo Portugal"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoH/gana.png" alt="Logo Gana"></td>
+                    <td>Gana</td>
+                    <td>13h, Porto de Doha</td>
+                </tr>
+            </table>
 
-    <h3>2ª rodada | Segunda-feira (28/11)</h3>
-    <table>
-        <tr>
-            <td>Camarões</td>
-            <td><img class="logo-paises" src="grupoG/camaroes.png" alt="Logo Camarões"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoG/servia.png" alt="Logo Sérvia"></td>
-            <td>Sérvia</td>
-            <td>07h, Al Janoub</td>  
-        </tr>
-        <tr>
-            <td>Brasil</td>
-            <td><img class="logo-paises" src="grupoG/brasil.png" alt="Logo Brasil"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoG/suica.png" alt="Logo Suíça"></td>
-            <td>Suíça</td>
-            <td>13h, Porto de Doha</td>  
-        </tr>
-    </table>
+            <h3>2ª rodada | Segunda-feira (28/11)</h3>
+            <table>
+                <tr>
+                    <td>Coréia do Sul</td>
+                    <td><img class="logo-paises" src="grupoH/coreiadosul.png" alt="Logo Coréia do Sul"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoH/gana.png" alt="Logo Gana"></td>
+                    <td>Gana</td>
+                    <td>10h, Cidade da Educação</td>
+                </tr>
+                <tr>
+                    <td>Portugal</td>
+                    <td><img class="logo-paises" src="grupoH/portugal.png" alt="Logo Portugal"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoH/uruguai.png" alt="Logo Uruguai"></td>
+                    <td>Uruguai</td>
+                    <td>16h, Nacional de Lusail</td>
+                </tr>
+            </table>
 
-    <h3>3ª rodada | Sexta-feira (02/12)</h3>
-    <table>
-        <tr>
-            <td>Camarões</td>
-            <td><img class="logo-paises" src="grupoG/camaroes.png" alt="Logo Camarões"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoG/brasil.png" alt="Logo Brasil"></td>
-            <td>Brasil</td>
-            <td>16h, Nacional de Lusail</td>  
-        </tr>
-        <tr>
-            <td>Sérvia</td>
-            <td><img class="logo-paises" src="grupoG/servia.png" alt="Logo Sérvia"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoG/suica.png" alt="Logo Suíça"></td>
-            <td>Suíça</td>
-            <td>16h, Porto de Doha</td>  
-        </tr>
-    </table>
-
-    <h2>Grupo H</h2>
-    <h3>1ª rodada | Quinta-feira (24/11)</h3>
-    <table>
-        <tr>
-            <td>Uruguai</td>
-            <td><img class="logo-paises" src="grupoH/uruguai.png" alt="Logo Uruguai"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoH/coreiadosul.png" alt="Logo Coréia do Sul"></td>
-            <td>Coréia do Sul</td>
-            <td>10h, Cidade da Educação</td>  
-        </tr>
-        <tr>
-            <td>Portugal</td>
-            <td><img class="logo-paises" src="grupoH/portugal.png" alt="Logo Portugal"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoH/gana.png" alt="Logo Gana"></td>
-            <td>Gana</td>
-            <td>13h, Porto de Doha</td>  
-        </tr>
-    </table>
-
-    <h3>2ª rodada | Segunda-feira (28/11)</h3>
-    <table>
-        <tr>
-            <td>Coréia do Sul</td>
-            <td><img class="logo-paises" src="grupoH/coreiadosul.png" alt="Logo Coréia do Sul"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoH/gana.png" alt="Logo Gana"></td>
-            <td>Gana</td>
-            <td>10h, Cidade da Educação</td>  
-        </tr>
-        <tr>
-            <td>Portugal</td>
-            <td><img class="logo-paises" src="grupoH/portugal.png" alt="Logo Portugal"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoH/uruguai.png" alt="Logo Uruguai"></td>
-            <td>Uruguai</td>
-            <td>16h, Nacional de Lusail</td>  
-        </tr>
-    </table>
-
-    <h3>3ª rodada | Sexta-feira (02/12)</h3>
-    <table>
-        <tr>
-            <td>Coréia do Sul</td>
-            <td><img class="logo-paises" src="grupoH/coreiadosul.png" alt="Logo Coréia do Sul"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoH/portugal.png" alt="Logo Portugal"></td>
-            <td>Portugal</td>
-            <td>12h, Cidade da Educação</td>  
-        </tr>
-        <tr>
-            <td>Gana</td>
-            <td><img class="logo-paises" src="grupoH/gana.png" alt="Logo Gana"></td>
-            <td>x</td>
-            <td><img class="logo-paises" src="grupoH/uruguai.png" alt="Logo Uruguai"></td>
-            <td>Uruguai</td>
-            <td>12h, Al Janoub</td>  
-        </tr>
-    </table>
+            <h3>3ª rodada | Sexta-feira (02/12)</h3>
+            <table>
+                <tr>
+                    <td>Coréia do Sul</td>
+                    <td><img class="logo-paises" src="grupoH/coreiadosul.png" alt="Logo Coréia do Sul"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoH/portugal.png" alt="Logo Portugal"></td>
+                    <td>Portugal</td>
+                    <td>12h, Cidade da Educação</td>
+                </tr>
+                <tr>
+                    <td>Gana</td>
+                    <td><img class="logo-paises" src="grupoH/gana.png" alt="Logo Gana"></td>
+                    <td>x</td>
+                    <td><img class="logo-paises" src="grupoH/uruguai.png" alt="Logo Uruguai"></td>
+                    <td>Uruguai</td>
+                    <td>12h, Al Janoub</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
