@@ -221,7 +221,6 @@ header {
 }
 .modal {
 	position: fixed;
-	font-family: Arial, Helvetica, sans-serif;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -239,10 +238,10 @@ header {
 	pointer-events: auto;
   }
   .modal > div {
-    width: 85%;
+    width: 70%;
     position: relative;
-    margin: 10% auto;
-    padding: 30px 90px;
+    margin: 25px 0px 0px 265px;
+    padding: 8px 155px;
     border-radius: 10px;
     background: #fff;
     background: -moz-linear-gradient(#fff, #999);
@@ -269,10 +268,12 @@ header {
 
 .fechar:hover { background: #772c49; }
   .modal h3 {
-    padding-bottom: 20px;
-    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-top: 20px;
   }
-
+  .modal > div h2 {
+      text-align: center;
+  }
 /* ---- Page Estadios ---- */
 .box-estadios {
     padding: 60px;
