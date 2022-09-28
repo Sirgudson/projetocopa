@@ -100,7 +100,7 @@ header {
     z-index: 2;
     position: relative;
 }
-.img-qatar, .qatar-flag, .content p{
+.img-qatar, .qatar-flag {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -120,6 +120,64 @@ header {
     line-height: 45px;
     padding-left: 20%;
     padding-right: 20%;
+}
+.content .mosaico {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    grid-auto-rows: 300px;
+    padding: 100px;
+}
+.content .item-mosaico{
+    position: relative;
+}
+.content .item-mosaico .img-mosaico {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content .item-mosaico .title-mosaico {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.8);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}
+.content .item-mosaico p {
+    display: none;
+}
+.content .title-mosaico:hover {
+    font-size: 150%;
+    cursor: pointer;
+}
+.content .title-mosaico:hover p {
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+}
+.content .h-1 {
+    grid-row: span 1;
+}
+.content .h-2 {
+    grid-row: span 2;
+}
+.content .w-1 {
+    grid-column: span 1;
+}
+.content .w-2 {
+    grid-column: span 2;
+}
+.content .w-4 {
+    grid-column: span 4;
+}
+
+.catar-na-copa h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 45px;
+    color: #772c49;
 }
 
 /* ------ Page Jogos ------*/
