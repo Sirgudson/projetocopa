@@ -427,6 +427,138 @@ table, td, th {
     padding: 20px;
 }
 
+/* ---- Page Coreia ---- */
+.box-main-coreia .container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4%;
+}
+.box-main-coreia h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.coreia-b {
+    color: #f9080b;
+}
+.img-destaque {
+    width: 80%;
+    padding-top: 30px;
+}
+.box-main-coreia .container-main table {
+    width: 30%;
+    color: #fff;
+    background-color: #f9080b;
+    border: 3px solid #ffff;
+    padding: 10px;
+    margin-top: 220px;
+}
+table, td, th {
+    padding: 20px;
+}
+
+/* ---- Page Gana ---- */
+.box-main-gana .container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4%;
+}
+.box-main-gana h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.gana-b {
+    color: #d40223;
+}
+.img-destaque {
+    width: 80%;
+    padding-top: 30px;
+}
+.box-main-gana .container-main table {
+    width: 30%;
+    color: #fff;
+    background-color: #efca24;
+    border: 3px solid #d40223;
+    padding: 10px;
+    margin-top: 220px;
+}
+table, td, th {
+    padding: 20px;
+}
+
+/* ---- Page Holanda ---- */
+.box-main-holanda .container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4%;
+}
+.box-main-holanda h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.holanda-b {
+    color: #f67c0e;
+}
+.img-destaque {
+    width: 80%;
+    padding-top: 30px;
+}
+.box-main-holanda .container-main table {
+    width: 30%;
+    color: #000;
+    background-color: #fff;
+    border: 3px solid #f67c0e;
+    padding: 10px;
+    margin-top: 220px;
+}
+table, td, th {
+    padding: 20px;
+}
+
+/* ---- Page Japao ---- */
+.box-main-japao .container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4%;
+}
+.box-main-japao h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.japao-b {
+    color: #14346b;
+}
+.img-destaque {
+    width: 80%;
+    padding-top: 30px;
+}
+.box-main-japao .container-main table {
+    width: 30%;
+    color: #fff;
+    background-color: #14346b;
+    border: 3px solid #fff;
+    padding: 10px;
+    margin-top: 220px;
+}
+table, td, th {
+    padding: 20px;
+}
+
 /* ---- Page Marrocos ---- */
 .box-main-marrocos .container-main {
     display: flex;
@@ -460,7 +592,7 @@ table, td, th {
     padding: 20px;
 }
 
-/* ---- Page Camaroes ---- */
+/* ---- Page Senegal ---- */
 .box-main-senegal .container-main {
     display: flex;
     flex-direction: row-reverse;
